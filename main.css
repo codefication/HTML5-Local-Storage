@@ -1,0 +1,35 @@
+ul {
+    color: #c1c1c1;
+    font-size: 1.2em;
+    font-weight: lighter;
+    list-style: outside none none;
+    padding: 0;
+}
+li{
+  background-color: #333;
+  margin: 0.5em 0;
+  padding: 1em;
+}
+.notification{
+  visibility: hidden;
+}
+.notification, .getStr{   
+   font-size: 18px;
+   color: #ff0088;
+   padding: 1em;   
+}
+#getBtn {
+    background-color: purple;
+    border: medium none transparent;
+    color: white;
+}
+#saveBtn {
+    background-color: #178634;
+    border: medium none transparent;
+    color: white;
+}
+#removebtn {
+    background-color: #444;
+    border: medium none transparent;
+    color: #fff;
+}
